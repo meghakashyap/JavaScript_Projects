@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+/* .body{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to bottom#68EACC 100%, #497BE8 100%);
+} */
+.wrapper{
+    margin: 120px auto;
+    max-width: 400px;
+    width: 100x;
+    background-color:  wheat; 
+    border-radius: 5px;
+    padding: 25px;
+
+}
+.wrapper .header{
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+.wrapper .inputField{
+    display: flex;
+    height: 45px;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.inputField .input1{
+    width: 85%;
+    height: 100%;
+    border:1px solid ;
+    font-size: 17px;
+    border-radius: 3px;
+    padding-left: 15px;
+
+
+}
+.inputField .button{
+    width: 60px;
+    height: 100px;
+    border:none;
+    outline: none;
+    background:#497BE8;
+}
